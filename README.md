@@ -1,2 +1,2 @@
 # JavaBasicsNotes
-Notes for me or someone who finds this
+Notes from me for mebor someone who finds this
