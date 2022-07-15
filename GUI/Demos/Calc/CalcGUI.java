@@ -27,7 +27,7 @@ class Constants{
 
 public class Calculator  extends Frame{
     private void addTextField(GridBagLayout pGb, int pGridx, int pGridy,Constants c){
-        TextField display = new TextField(12);
+        TextField display = new TextField(c.DEFAULT_TEXT_FIELD_DIGITS);
         // Specific the cells for the display
             GridBagConstraints GBC_display = new GridBagConstraints();
                 GBC_display.gridx = pGridx;
