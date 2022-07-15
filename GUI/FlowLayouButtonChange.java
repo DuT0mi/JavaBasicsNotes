@@ -1,7 +1,11 @@
 package reminder;
 import java.awt.*;
 import java.awt.event.*;
-
+/*
+    if u want adjust the parameters (like width,..) u must to use this formule:
+    Panel p = new Panel();
+    p.setLayout(new FlawLayout(FlowLayout.CENTER,10,5)); // instead of making a new FlawLayout at manipulate that with setters
+*/
 public class Reminder extends Frame implements ActionListener {
     // variables
     
