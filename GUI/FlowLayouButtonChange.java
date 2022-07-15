@@ -21,7 +21,7 @@ public class Reminder extends Frame implements ActionListener {
             Button bt = (Button)e.getSource();
                 if(bt.getLabel().equals(i + ".nyomógomb")){
                 bt.setLabel("Button " + i);
-                this.validate();
+                this.validate();                        // after the changed button we must to call the validate() method
                 break;
                 }
            if(bt.getLabel().equals("Button" + i)){
