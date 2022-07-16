@@ -18,7 +18,7 @@ public class BgChange extends Frame implements ActionListener {
             this.add(butt3);
             butt1.addActionListener(this);
             butt2.addActionListener(this);
-            butt3.addActionListener(new EventExecuter(this,Color.black)); // Here we must to adjust "this" because of that will get an object-notification from external class
+            butt3.addActionListener(new EventExecuter(this,Color.black)); // Here we must to adjust "this" because of that will get an object-notification from an external class
             validate();
             setVisible(true);
         }
