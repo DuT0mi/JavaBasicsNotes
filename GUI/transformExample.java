@@ -23,7 +23,7 @@ import java.awt.geom.*;
                 Graphics2D g2d = (Graphics2D)g;
                 g2d.setStroke(new BasicStroke(4));
                 g2d.draw(circle);
-                g2d.translate(135.0,165.0);
+                g2d.translate(135.0,165.0);     // translate with 22.5 degree 16 times
                     for(int i = 0; i < 16 ; i++) {
                         g2d.rotate(Math.PI/8.0);
                         g2d.setPaint(colors[i%2]);
