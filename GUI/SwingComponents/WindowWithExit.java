@@ -17,7 +17,7 @@ import java.awt.event.*;
                     f.setVisible(true);
         }
 }
-    // Utility class for finish the app
+    // *** Utility class for finish the app
      class ExitListener extends WindowAdapter{
         public void windowClosing(WindowEvent e){
             System.exit(0);
