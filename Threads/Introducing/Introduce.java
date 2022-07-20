@@ -20,7 +20,7 @@ public class threadIntro {
            System.out.println("Current thread after the name changing: " + t);
            // Counting down from 10 to 0
            // with 1 - 1 seconds
-           // try-catch bec of the sleep() is declarated with InterruptedExpection which MUST to be catch or to spread
+           // try-catch bec of the sleep() is declarated with InterruptedExpection which MUST to be catch or to be spread
            try{
                for(int i = 10; i>0 ; i--){
                System.out.println(i);
