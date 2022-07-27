@@ -12,7 +12,7 @@ public class Llist {
                 // indexelt, dinamikus
             // Linkedlist
                 // Lassabb keresés, gyorsabb hozzáadás/törlés, több informűciót táról ( nyílván hisz hivatkozik élőre és hátra ( láncolástól függően..))
-                // nem indexelt, dinamikus
+                // nem indexelt (innen következik a lassabb keresés), dinamikus
         LinkedList<String> LList = new LinkedList<String>();
             LList.add("Tomi");
             LList.add("Olivér");
