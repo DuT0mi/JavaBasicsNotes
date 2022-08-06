@@ -1,7 +1,7 @@
 ## Snake
 ### (known)Bugs
-- Can't immediately change direction (I mean it can't change from left to right)
-- Some half-food ( I mean the half of the rectangle) may spawn out of the windows despite of I tried to fix this with constants but snake also can moving halfly (horizontally cut half) at the bounds
+- Can't immediately change direction (when the head and the tail change their positions(up-down) and *= - 1, or (left-right) and *= -1,...)
+- Some half-food ( I mean the half of the rectangle) may spawn out of the windows despite of I tried to fix this with constants,but snake also can moving halfly (horizontally cut half) at the bounds
 ### Further Development Opurtinities
 -   Could add more GUI:
     - Buttons:
